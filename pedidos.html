@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Prload" href="style/style.css" as="style">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="Preload" href="style/normalize.css" as="style">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <title>Pâtisserie Astrale</title>
+</head>
+<body>
+    <header class="header">
+        <div>
+            <div class="barra">
+                <a href="index.html"><img src="img/logo2.jpg" alt="" ></a>
+                <div class="img-menu"><a href="#"><img src="img/menu.png" alt=""></a></div>
+                <nav class="nav">
+                    <a href="#">Cerrar Sesión</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2 class="titulo">Existencias</h2>
+        <section class="ex contenedor">
+            <div class="ex__ele">
+                <label for="pan">Sabores de PAN</label><br>
+                <input list="pan">
+                <datalist id="pan">
+                    <option value="Vainilla">
+                    <option value="Chocolate">
+                    <option value="Zanahoria">
+                    <option value="Limón">
+                    <option value="Naranja">
+                </datalist>
+                <input type="text" placeholder="--" id="pan_cantidad">
+            </div>
+            <div class="ex__ele">
+                <label for="coberturas">Coberturas</label><br>
+                <input list="coberturas">
+                <datalist id="coberturas">
+                    <option value="Chocolate">
+                    <option value="Crema cob_Chantilli">
+                    <option value="Crema de Mantequilla">
+                    <option value="Crema Pastelera">
+                    <option value="Fondant">
+                    </datalist>
+                    <input type="text" placeholder="--" id="cob-cantidad">
+            </div>
+            <div class="ex__ele">
+                <label for="rellenos">Rellenos</label><br>
+                <input list="rellenos">
+                <datalist id="rellenos">
+                    <option value="Nuez">
+                    <option value="Fresa">
+                    <option value="Durazno">
+                    <option value="Mango">
+                    <option value="Almendra">
+                </datalist>
+                <input type="text" placeholder="--" id="rel_cantidad">
+            </div>
+            <div class="ex__ele">
+                <label for="adornos">Adornos</label><br>
+                <input list="adornos">
+                <datalist id="adornos">
+                    <option value="Fruta">
+                    <option value="Chocolate">
+                    <option value="Fondant">
+                    <option value="Payasos">
+                </datalist>
+                <input type="text" placeholder="--" id="ad_cantidad">
+            </div>
+        </section>
+        <section class="contenedor">
+            <h2 class="titulo">Pedidos</h2>
+            <table class="pedidos">
+                <tr>
+                    <th>N° Pedido</th>
+                    <th>Datos Cliente</th>
+                    <th>Estatus Pedido</th>
+                    <th>Actualizar Pedido</th>
+                </tr>
+                <tr>
+                    <td data-titulo="N° Pedido: ">PA0025</td>
+                    <td data-titulo="Datos Cliente: ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </td>
+                    <td data-titulo="Estatus Pedido: ">Pendiente</td>
+                    <td><a class="btn" href="#">Actualizar</a></td>
+                </tr>
+                <tr>
+                    <td data-titulo="N° Pedido: ">PA0026</td>
+                    <td data-titulo="Datos Cliente: ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </td>
+                    <td data-titulo="Estatus Pedido: ">Entregado</td>
+                    <td><a class="btn" href="#">Actualizar</a></td>
+                </tr>
+                <tr>
+                    <td data-titulo="N° Pedido: ">PA0027</td>
+                    <td data-titulo="Datos Cliente: ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </td>
+                    <td data-titulo="Estatus Pedido: ">Entregado</td>
+                    <td><a class="btn" href="#">Actualizar</a></td>
+                </tr>
+                <tr>
+                    <td data-titulo="N° Pedido: ">PA0028</td>
+                    <td data-titulo="Datos Cliente: ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </td>
+                    <td data-titulo="Estatus Pedido: ">Pendiente</td>
+                    <td><a class="btn" href="#">Actualizar</a></td>
+                </tr>
+                <tr>
+                    <td data-titulo="N° Pedido: ">PA0029</td>
+                    <td data-titulo="Datos Cliente: ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </td>
+                    <td data-titulo="Estatus Pedido: ">Pendiente</td>
+                    <td><a class="btn" href="#">Actualizar</a></td>
+                </tr>
+                <tr>
+                    <td data-titulo="N° Pedido: ">PA0030</td>
+                    <td data-titulo="Datos Cliente: ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </td>
+                    <td data-titulo="Estatus Pedido: ">Entregado</td>
+                    <td><a class="btn" href="#">Actualizar</a></td>
+                </tr>
+              </table>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__logo"><img src="img/logo.png" alt=""></div>
+        <div class="footer__address">
+            <p>Jalapa 128, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX</p>
+            <p>554-433-2211</p>
+            <p>Horarios:</p>
+            <ul>
+                <li>Lunes a viernes de 9:00 am a 17:00 pm</li>
+                <li>Sabado de 11:00 am a 14:00 pm</li>
+            </ul>
+        </div>
+        <div class="footer__socials">
+            <img src="img/facebook.png" alt="">
+            <img src="img/twitter.png" alt="">
+            <img src="img/instagram.png" alt="">
+            <img src="img/pinterest.png" alt="">
+        </div>
+        <div class="footer__derechos">
+            <p>Drechos Reservados Pâtisserie Astrale 2022</p>
+        </div>
+    </footer>
+</body>
+</html>

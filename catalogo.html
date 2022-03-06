@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Prload" href="style/style.css" as="style">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="Preload" href="style/normalize.css" as="style">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <title>Pâtisserie Astrale</title>
+</head>
+<body>
+    <header class="header">
+        <div>
+            <div class="barra">
+                <a href="index.html"><img src="img/logo2.jpg" alt="" ></a>
+                <div class="img-menu"><a href="#"><img src="img/menu.png" alt=""></a></div>
+                <nav class="nav">
+                    <a href="nosotros.html">Sobre Nosotros</a>
+                    <a href="catalogo.html">Catalogo</a>
+                    <a href="pedidos.html">Pedidos</a>
+                    <a href="acceso.html">Acceso</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <h1 class="titulo">Pâtisserie Astrale</h1>
+    <main class="contenedor">
+            <form class="ingredientes">
+                <fieldset>
+                    <legend><p>PAN</p></legend>
+                    <div class="campo">
+                        <div class="campo__info">
+                            <input class="campo__info--checkbox" type="checkbox" id="pan_vainilla" name="pan_vainilla" value="pan_vainilla" checked>
+                            <label class="campo__info--label" for="pan_vainilla">Vainilla $75</label>
+                        </div>
+                        <div class="campo__info">
+                            <input class="campo__info--checkbox" type="checkbox" id="pan_chocolate" name="pan_chocolate" value="pan_chocolate">
+                            <label class="campo__info--label" for="pan_chocolate">Chocolate $75</label>
+                        </div>
+                        <div class="campo__info">
+                            <input class="campo__info--checkbox" type="checkbox" id="pan_Zanahoria" name="pan_Zanahoria" value="pan_Zanahoria">
+                            <label class="campo__info--label" for="pan_Zanahoria">Zanahoria $85</label>
+                        </div>
+                        <div class="campo__info">
+                            <input class="campo__info--checkbox" type="checkbox" id="pan_Limon" name="pan_Limon" value="pan_Limon">
+                            <label class="campo__info--label" for="pan_Limon">Limón $85</label>
+                        </div>
+                        <div class="campo__info">
+                            <input class="campo__info--checkbox" type="checkbox" id="pan_Naranja" name="pan_Naranja" value="pan_Naranja">
+                            <label class="campo__info--label" for="pan_Naranja">Naranja $85</label>
+                        </div>
+                        <div class="campo__info">
+                            <label class="campo__info--label" for="pan_Otro">Otro</label>
+                            <input class="campo__info--textbox" type="text" name="pan_Otro" id="pan_Otro">
+                        </div>
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend><p>Cobertura</p></legend>
+                    <div class="campo">
+                        <div class="campo__info">
+                            <input class="campo__info--checkbox" type="checkbox" id="cob_chocolate" name="cob_chocolate" value="cob_chocolate" checked>
+                            <label class="campo__info--label" for="cob_chocolate">Chocolate Fundido $50</label>
+                        </div>
+                        <div class="campo__info">
+                            <input class="campo__info--checkbox" type="checkbox" id="cob_chantilli" name="cob_chantilli" value="cob_Chantilli">
+                            <label class="campo__info--label" for="cob_chantilli">Crema Chantillí $50</label>
+                        </div>
+                        <div class="campo__info">
+                            <input class="campo__info--checkbox" type="checkbox" id="con_mantequilla" name="con_mantequilla" value="con_mantequilla">
+                            <label class="campo__info--label" for="con_mantequilla">Crema de Mantequilla $60</label>
+                        </div>
+                        <div class="campo__info">
+                            <input class="campo__info--checkbox" type="checkbox" id="cob_pastelera" name="cob_pastelera" value="cob_pastelera">
+                            <label class="campo__info--label" for="cob_pastelera">Crema Pastelera $60</label>
+                        </div>
+                        <div class="campo__info">
+                            <input class="campo__info--checkbox" type="checkbox" id="cob_fondant" name="cob_fondant" value="cob_fondant">
+                            <label class="campo__info--label" for="cob_fondant">Fondant $85</label>
+                        </div>
+                        <div class="campo__info">
+                            <label class="campo__info--label" for="cob_otro">Otro</label>
+                            <input class="campo__info--textbox" type="text" name="cob_otro" id="cob_otro">
+                        </div>
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend><p>Relleno</p></legend>
+                    <div class="campo">
+                        <div class="campo__info">
+                            <input class="campo__info--checkbox" type="checkbox" id="rell_nuez" name="rell_nuez" value="rell_nuez" checked>
+                            <label class="campo__info--label" for="rell_nuez">Nuez $ 80</label>
+                        </div>
+                        <div class="campo__info">
+                            <input class="campo__info--checkbox" type="checkbox" id="rell_fresa" name="rell_fresa" value="rell_fresa">
+                            <label class="campo__info--label" for="rell_fresa">Fresa $ 65</label>
+                        </div>
+                        <div class="campo__info">
+                            <input class="campo__info--checkbox" type="checkbox" id="rell_durazno" name="rell_durazno" value="rell_durazno">
+                            <label class="campo__info--label" for="rell_durazno">Durazno $ 65</label>
+                        </div>
+                        <div class="campo__info">
+                            <label class="campo__info--label" for="rell_otro">Otro</label>
+                            <input class="campo__info--textbox" type="text" name="rell_otro" id="rell_otro">
+                        </div>
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend><p>Adornos</p></legend>
+                    <div class="campo">
+                        <div class="campo__info">
+                            <input class="campo__info--checkbox" type="checkbox" id="ado_fruta" name="ado_fruta" value="ado_fruta" checked>
+                            <label class="campo__info--label" for="ado_fruta">Fruta $ 90</label>
+                        </div>
+                        <div class="campo__info">
+                            <input class="campo__info--checkbox" type="checkbox" id="ado_chocolate" name="ado_chocolate" value="ado_chocolate">
+                            <label class="campo__info--label" for="ado_chocolate">Chocolate $ 90</label>
+                        </div>
+                        <div class="campo__info">
+                            <input class="campo__info--checkbox" type="checkbox" id="ado_fondant" name="ado_fondant" value="ado_fondant">
+                            <label class="campo__info--label" for="ado_fondant">Fondant $ 100</label>
+                        </div>
+                        <div class="campo__info">
+                            <label class="campo__info--label" for="ado_otro">Otro</label>
+                            <input class="campo__info--textbox" type="text" name="ado_otro" id="ado_otro">
+                        </div>
+                    </div>
+                </fieldset>                  
+            
+                <fieldset>
+                    <legend><p>Contacto</p></legend>
+                    <div class="campo">
+                        <div class="campo__info">
+                            <label class="campo__info--label" for="Precio">PRECIO TOTAL</label>
+                            <input type="text" class="campo__info--textbox">
+                        </div>
+                        <div class="campo__info">
+                            <label for="nombre" class="campo__info--label">Nombre</label>
+                            <input class="campo__info--contacto" type="text" name="nombre" id="cl_name" placeholder="Nombre">
+                        </div>
+                        <div class="campo__info">
+                            <label for="tel" class="campo__info--label">Teléfono</label>
+                            <input class="campo__info--contacto" type="number" name="tel" id="cl_tel" placeholder="554-455-3322">
+                        </div>
+                        <div class="campo__info">
+                            <label for="e-mail" class="campo__info--label">Correo Electrónico</label>
+                            <input class="campo__info--contacto" type="email" name="e-mail" id="cl_email" placeholder="correo@ejemplo.com">
+                        </div>
+                        <div class="campo__info">
+                            <label for="desc" class="campo__info--label" >Comentario Extra</label>
+                            <textarea class="campo__info--contacto campo__info--textarea" name="desc" id="cl_desc"></textarea>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+            <div class="button">
+                <input type="submit" value="Enviar" class="btn2">
+            </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__logo"><img src="img/logo.png" alt=""></div>
+        <div class="footer__address">
+            <p>Jalapa 128, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX</p>
+            <p>554-433-2211</p>
+            <p>Horarios:</p>
+            <ul>
+                <li>Lunes a viernes de 9:00 am a 17:00 pm</li>
+                <li>Sabado de 11:00 am a 14:00 pm</li>
+            </ul>
+        </div>
+        <div class="footer__socials">
+            <img src="img/facebook.png" alt="">
+            <img src="img/twitter.png" alt="">
+            <img src="img/instagram.png" alt="">
+            <img src="img/pinterest.png" alt="">
+        </div>
+        <div class="footer__derechos">
+            <p>Drechos Reservados Pâtisserie Astrale 2022</p>
+        </div>
+    </footer>
+</body>
+</html>
